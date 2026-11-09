@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventti</title>
+    <link rel="stylesheet" href="./css/ventti.css">
+    <style>
+body { background: yellow !important; }
+#pelipoyta { background: lime !important; min-width: 550px; min-height: 400px; }
+</style>
+    <script type="module" src="./js/kayttoliittyma.js"></script>
+</head>
+<body>
+
+    <div id="pelipoyta">
+
+        <div id="napit">
+            <button id="ota-kortti">Ota kortti</button>
+            <button id="jaa">Jää</button>
+            <button id="uusi-peli">Uusi peli</button>
+        </div>
+
+        <h2>Pelaaja</h2>
+        <div id="pelaajan-kortit">
+            <div id="pelaaja1" class="kortti"></div>
+            <div id="pelaaja2" class="kortti"></div>
+            <div id="pelaaja3" class="kortti"></div>
+            <div id="pelaaja4" class="kortti"></div>
+            <div id="pelaaja5" class="kortti"></div>
+        </div>
+
+        <h2>Jakaja</h2>
+        <div id="jakajan-kortit">
+            <div id="jakaja1" class="kortti"></div>
+            <div id="jakaja2" class="kortti"></div>
+            <div id="jakaja3" class="kortti"></div>
+            <div id="jakaja4" class="kortti"></div>
+            <div id="jakaja5" class="kortti"></div>
+        </div>
+
+        <div id="tulos"></div>
+
+    </div>
+
+</body>
+</html>
