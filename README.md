@@ -1,0 +1,2 @@
+# ventti
+Ventti-korttipeli JavaScriptillä
